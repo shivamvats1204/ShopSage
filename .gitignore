@@ -1,0 +1,32 @@
+# Secrets and local configuration (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Local data (personal reminders database, test databases)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node tooling (optional syntax check / formatter)
+node_modules/
+
+# Logs and scratch files
+*.log
+*.bak
+*.tmp
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

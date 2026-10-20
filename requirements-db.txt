@@ -1,0 +1,2 @@
+# Only needed for DATA_MODE=erpnext-db. API/demo/Groq use Python's standard library.
+PyMySQL==1.2.3
